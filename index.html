@@ -9,13 +9,13 @@
 </head>
 
 <body style="margin: 0px; overflow: hidden;">
-    <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
+    <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix;">
         
         <a-assets>
             <a-asset-item id="modelo-corazon" src="corazon.glb"></a-asset-item>
         </a-assets>
 
-        <a-marker type="barcode" value="1">
+        <a-marker type="pattern" url="marcador1.patt">
             <a-entity 
                 id="entidad-corazon"
                 gltf-model="#modelo-corazon" 
@@ -25,7 +25,7 @@
             </a-entity>
         </a-marker>
 
-        <a-marker type="barcode" value="2" id="trigger-acelerador">
+        <a-marker type="pattern" url="marcador2.patt" id="trigger-acelerador">
             <a-box color="red" scale="0.2 0.2 0.2" position="0 0.5 0"></a-box>
         </a-marker>
 
@@ -36,12 +36,10 @@
         const corazon = document.querySelector('#entidad-corazon');
         const marcadorAcelerador = document.querySelector('#trigger-acelerador');
 
-        // Lógica: Si detecta el marcador 2, cambia la velocidad de la animación a 4 (rápido)
         marcadorAcelerador.addEventListener('markerFound', () => {
             corazon.setAttribute('animation-mixer', 'timeScale: 4');
         });
 
-        // Si pierde el marcador 2 de vista, vuelve a velocidad 1 (normal)
         marcadorAcelerador.addEventListener('markerLost', () => {
             corazon.setAttribute('animation-mixer', 'timeScale: 1');
         });
