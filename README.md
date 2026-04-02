@@ -27,7 +27,7 @@ Esta herramienta ha sido diseñada como un recurso de innovación docente y divu
 En la elaboración de esta herramienta técnica se han utilizado los siguientes recursos y asistencias:
 
 1. **Desarrollo y Documentación:** Programación de la lógica de interacción y optimización del flujo WebAR por Antonio Gabucio López, con la colaboración de **Gemini (Modelo de IA de Google)** en la arquitectura del código y la redacción técnica.
-2. **Generación de Marcadores:** Los archivos de patrón se han obtenido mediante la herramienta disponible en: [NOMBRE DEL REPOSITORIO DEL GENERADOR PENDIENTE].
+2. **Generación de Marcadores:** Los archivos de patrón se han obtenido mediante la herramienta disponible en: [https://antoniogabucio.github.io/AR-marker-generator/].
 3. **Recurso Gráfico Integrado:** Se ha incorporado el modelo 3D ["Animated Beating Heart"](https://skfb.ly/6XPZL) de **nitwit.friends** (Licencia CC BY 4.0) como componente visual de la herramienta.
 
 ## 🚀 Acceso a la Aplicación (Demo Live)
