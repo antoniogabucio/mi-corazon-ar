@@ -12,15 +12,15 @@
     <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix;">
         
         <a-assets>
-            <a-asset-item id="modelo-corazon" src="corazon.glb"></a-asset-item>
+<a-asset-item id="modelo-corazon" src="corazon.glb?v=2"></a-asset-item>
         </a-assets>
 
         <a-marker type="pattern" url="marcador1.patt">
             <a-entity 
         id="entidad-corazon"
         gltf-model="#modelo-corazon" 
-        scale="0.01 0.01 0.01" 
-        position="0 0.5 0"
+        scale="0.0005 0.0005 0.0005" 
+        position="0 0.2 0"
         rotation="-90 0 0"
         animation-mixer="clip: *; timeScale: 1">
             </a-entity>
