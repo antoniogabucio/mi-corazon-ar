@@ -11,7 +11,7 @@ Para citar el uso de esta herramienta, el código o la metodología empleada, ut
 * **Referencia sugerida:** Gabucio López, A. (2026). *Experiencia Interactiva de Realidad Aumentada: Corazón Humano*. Repositorio de software de acceso abierto. DOI: [PENDIENTE DE ASIGNACIÓN EN ZENODO].
 * **Autor:** Antonio Gabucio López
 * **ORCID:** [0000-0001-6000-9937](https://orcid.org/0000-0001-6000-9937)
-* **DOI:** [INSERTAR AQUÍ EL DOI UNA VEZ GENERADO]
+* [![DOI](https://zenodo.org/badge/1199813329.svg)](https://doi.org/10.5281/zenodo.19392576)
 
 ## 📊 Resumen del Proyecto
 
