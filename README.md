@@ -2,6 +2,7 @@
 # ❤️ Realidad Aumentada Aplicada: Visualización y Control del Ritmo Cardíaco
 
 Este proyecto presenta una solución de **Realidad Aumentada basada en Web (WebAR)** para la interacción con modelos anatómicos en tiempo real. Mediante el uso de marcadores de visión artificial personalizados, se permite la visualización dinámica y la manipulación de la fisiología cardíaca simulada.
+Para la utilización de la simulación sería necesario imprimir los 3 marcadores, el marcador 1 al ser enfocado provoca la aparicion de un video de realidad aumentada con un corazón centrado en la imagen del marcador que late a una frecuencia normal, si se introduce el marcador 2 o el 3 en la imagen captada por la cámara provoca un efecto de taquicardia o bradicardia respectivamente.
 
 ## ✍️ Autoría y Registro (Referencia Principal)
 
@@ -32,7 +33,7 @@ En la elaboración de esta herramienta técnica se han utilizado los siguientes 
 ## 🚀 Acceso a la Aplicación (Demo Live)
 
 La experiencia es funcional desde cualquier navegador móvil moderno en:
-`https://[TU-USUARIO-DE-GITHUB].github.io/pin-corazon/`
+`https://antoniogabucio.github.io/mi-corazon-ar/`
 
 ---
 *Este repositorio se distribuye bajo la licencia MIT.*
